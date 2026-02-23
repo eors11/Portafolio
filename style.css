@@ -1,0 +1,118 @@
+body{
+    background-color: #FCFEEC;
+    font-family: Fjalla One,sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+header {
+    font-family: Tiny5,sans-serif;
+}
+header h1{
+    text-align: center;
+    color: #e58c10;
+    font-size: 40px;
+}    
+header p{
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 25px;
+}
+#imag{
+        display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+#imag img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    justify-items: center;
+}
+img:hover{
+        box-shadow: 0 4px 10px rgba(5, 5, 5, 0.3);
+
+}
+
+main{
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #eef98b;
+    padding: 30px;
+    border-radius: 50px;
+}
+section {
+    margin-bottom: 20px;
+}
+h2{
+    color: #e58c10;
+    border-bottom: 2px solid #f79814;
+    padding-bottom: 5px;
+}
+#sobre-mi{
+    background-color: #F1FA9E;
+    padding:10px ;
+    border-radius: 25px;
+}
+#experiencia{
+    background-color: #F1FA9E;   
+    padding:10px ;
+    border-radius: 25px;
+}
+#habilidades{
+    background-color: #F1FA9E;
+    padding:10px ;
+    border-radius: 25px;
+}
+#contacto{
+    background-color: #F1FA9E;
+    padding:10px ;
+    border-radius: 25px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 15px;
+
+}
+li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 3px solid #db9534;
+}
+button{
+    background: #db9534;
+    color: white;
+    font-size: 20px;
+    width: 25%;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+}
+button:hover{
+    background: #dd9023fd;
+    box-shadow: 0 4px 10px rgba(5, 5, 5, 0.3);
+}
+
+
+
+footer{
+    background-color: #D6901F;
+    width: auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+    color: white;
+}
+input,textarea{
+    width: auto;
+    height: 10px;
+    border: 1px solid #b3783d;    
+    border-radius: 5px;
+    padding: 10px;
+
+}
